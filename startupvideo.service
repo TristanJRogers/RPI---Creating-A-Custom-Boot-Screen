@@ -1,0 +1,14 @@
+[Unit]
+Description=Play startup video after desktop is ready
+Before=display-manager.service
+Wants=graphical.target
+
+[Service]
+Type=exec
+User=tristanjrogers
+Environment=DISPLAY=:0
+Environment=XDG_RUNTIME_DIR=/runuser/1000
+ExecStart=/home/tristanjrogers/Scripts/startup_video_Test.sh
+
+[Install]
+WantedBy=graphical.target
