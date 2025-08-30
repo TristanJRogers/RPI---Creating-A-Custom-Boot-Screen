@@ -5,4 +5,6 @@
   a custom boot screen for when the device powered on. Heres how I did it. 
 
 # Step 1. 
-  
+  As a test, I just needed to find a quick GIF to run at boot just to show proof of concept, so I created one using Googles AI generator. 
+
+  <video src="path/to/your/video.mp4" width="600" controls></video> 
