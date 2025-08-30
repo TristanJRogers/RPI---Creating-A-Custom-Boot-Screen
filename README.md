@@ -7,4 +7,4 @@
 # Step 1. 
   As a test, I just needed to find a quick GIF to run at boot just to show proof of concept, so I created one using Googles AI generator. 
 
-  <video src="path/to/your/video.mp4" width="600" controls></video> 
+  <video src="Custom Boot Video.mp4" width="600" controls></video> 
