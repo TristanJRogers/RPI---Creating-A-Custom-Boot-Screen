@@ -23,13 +23,13 @@
 
  [Service](https://github.com/TristanJRogers/RPI---Creating-A-Custom-Boot-Screen/blob/main/startupvideo.service)
 
- In order to make the video clean, we needed the video to play before the desktop screen loaded. To do this I added the "Before=display-manager.service" line. This service file was placed in the /etc/systemd/system directory. Finally, to finish things out with the service file I had to tell the OS to check its services again to see that a new service has been added. To do this I ran "sudo systemctl daemon-reload" and finally we had to enable the service using "sudo systemctl enable". 
+ In order to make the video clean, we needed the video to play before the desktop screen loaded. To do this I added the "Before=display-manager.service" line. This service file was placed in the  /etc/systemd/system directory. Finally, to finish things out with the service file I had to tell the OS to check its services again to see that a new service has been added. To do this I ran "sudo systemctl daemon-reload" and finally we had to enable the service using "sudo systemctl enable". 
 
  # Step 4: Testing it out
 
-  Once all the previous steps were completed, a simple reboot showed that the script and service were working as intended. 
+ Once all the previous steps were completed, a simple reboot showed that the script and service were working as intended. 
 
-  
+ [Proof of Concept](https://github.com/TristanJRogers/RPI---Creating-A-Custom-Boot-Screen/blob/main/Proof%20of%20Concept.mov)
 
  
 
