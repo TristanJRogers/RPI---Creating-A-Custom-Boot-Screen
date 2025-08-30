@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Makes sure we can talk to the display
+# ensures video goes to display
 export DISPLAY=:0
 
 # Startup up video location
